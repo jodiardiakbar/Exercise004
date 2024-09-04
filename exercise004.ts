@@ -48,7 +48,7 @@ function bodyMassIndex(weight, height) {
 // 4. remove odd numbers in array
 let listNumber: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let listEven: number[] = [];
-function removeOddNumbers(listParameter) {
+function removeOddNumbers(listParameter: number[]) {
   for (let i of listParameter) {
     if (i % 2 === 0) {
       listEven.push(i);
